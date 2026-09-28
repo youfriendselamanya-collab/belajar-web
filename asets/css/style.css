@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: rgb(4, 204, 4);
+}
+
+.header-logo img {
+    width: 60px;
+    margin: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-sosmed {
+    margin-left: auto;
+}
+
+.header-sosmed img {
+    width: 40px;
+}
+
+.header-content h1 {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.header-sub {
+    background-color: #00631a;
+}
+
+.header-nav {
+    margin: 0 -60px;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.tagline {
+    text-align: center;
+    background-color: #018F26;
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: #ffffff;
+}
+
+.tagline h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    letter-spacing: 10px;
+}
+
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.berita-gambar img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.berita-deskripsi h4 {
+    margin-top: 0px;
+}
+
+.berita-tombol {
+    text-decoration: none;
+    background-color: #00631a;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14 px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.header-sekolah {
+    background: #285c2b;
+    color: white;
+    padding: 25px 70px 15px;
+}
+
+.header-isi {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 25px;
+}
+
+.identitas h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.identitas p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.slogan {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* HEADER */
+.header {
+    background-color: #285c2b;
+    color: white;
+    padding: 30px 80px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.sekolah h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    margin-left: 0%;
+}
+
+.sekolah p {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+/* ISI */
+main {
+    min-height: 400px;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+main h2 {
+    color: #285c2b;
+    font-size: 30px;
+}
+
+.subjudul {
+    margin-top: 10px;
+    color: #555;
+    font-size: 13px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #0c0c0c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
